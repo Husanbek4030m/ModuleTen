@@ -9,23 +9,35 @@
 /* Begin PBXBuildFile section */
 		8DE54CDC2862E271006FABF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE54CDB2862E271006FABF3 /* AppDelegate.swift */; };
 		8DE54CDE2862E271006FABF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE54CDD2862E271006FABF3 /* SceneDelegate.swift */; };
-		8DE54CE02862E271006FABF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE54CDF2862E271006FABF3 /* ViewController.swift */; };
 		8DE54CE32862E271006FABF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DE54CE12862E271006FABF3 /* Main.storyboard */; };
 		8DE54CE62862E271006FABF3 /* ModuleTen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DE54CE42862E271006FABF3 /* ModuleTen.xcdatamodeld */; };
 		8DE54CE82862E273006FABF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE54CE72862E273006FABF3 /* Assets.xcassets */; };
 		8DE54CEB2862E273006FABF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DE54CE92862E273006FABF3 /* LaunchScreen.storyboard */; };
+		8DE54CF62862E2B1006FABF3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE54CF42862E2B1006FABF3 /* HomeViewController.swift */; };
+		8DE54CF72862E2B1006FABF3 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DE54CF52862E2B1006FABF3 /* HomeViewController.xib */; };
+		8DE54CFB2862FF62006FABF3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE54CF92862FF62006FABF3 /* SecondViewController.swift */; };
+		8DE54CFC2862FF62006FABF3 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DE54CFA2862FF62006FABF3 /* SecondViewController.xib */; };
+		8DE54D042863264B006FABF3 /* item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE54D032863264B006FABF3 /* item.swift */; };
+		8DE54D07286329B5006FABF3 /* ItemColViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE54D05286329B5006FABF3 /* ItemColViewCell.swift */; };
+		8DE54D08286329B5006FABF3 /* ItemColViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DE54D06286329B5006FABF3 /* ItemColViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8DE54CD82862E271006FABF3 /* ModuleTen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModuleTen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DE54CDB2862E271006FABF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DE54CDD2862E271006FABF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8DE54CDF2862E271006FABF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8DE54CE22862E271006FABF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DE54CE52862E271006FABF3 /* ModuleTen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ModuleTen.xcdatamodel; sourceTree = "<group>"; };
 		8DE54CE72862E273006FABF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DE54CEA2862E273006FABF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DE54CEC2862E273006FABF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE54CF42862E2B1006FABF3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8DE54CF52862E2B1006FABF3 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		8DE54CF92862FF62006FABF3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		8DE54CFA2862FF62006FABF3 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		8DE54D032863264B006FABF3 /* item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = item.swift; sourceTree = "<group>"; };
+		8DE54D05286329B5006FABF3 /* ItemColViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemColViewCell.swift; sourceTree = "<group>"; };
+		8DE54D06286329B5006FABF3 /* ItemColViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemColViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +70,54 @@
 		8DE54CDA2862E271006FABF3 /* ModuleTen */ = {
 			isa = PBXGroup;
 			children = (
+				8DE54CFE286323AD006FABF3 /* cells */,
+				8DE54CFD286323A7006FABF3 /* models */,
+				8DE54CF32862E294006FABF3 /* controllers */,
+				8DE54CF22862E279006FABF3 /* apputils */,
 				8DE54CDB2862E271006FABF3 /* AppDelegate.swift */,
 				8DE54CDD2862E271006FABF3 /* SceneDelegate.swift */,
-				8DE54CDF2862E271006FABF3 /* ViewController.swift */,
-				8DE54CE12862E271006FABF3 /* Main.storyboard */,
-				8DE54CE72862E273006FABF3 /* Assets.xcassets */,
-				8DE54CE92862E273006FABF3 /* LaunchScreen.storyboard */,
 				8DE54CEC2862E273006FABF3 /* Info.plist */,
 				8DE54CE42862E271006FABF3 /* ModuleTen.xcdatamodeld */,
 			);
 			path = ModuleTen;
+			sourceTree = "<group>";
+		};
+		8DE54CF22862E279006FABF3 /* apputils */ = {
+			isa = PBXGroup;
+			children = (
+				8DE54CE12862E271006FABF3 /* Main.storyboard */,
+				8DE54CE72862E273006FABF3 /* Assets.xcassets */,
+				8DE54CE92862E273006FABF3 /* LaunchScreen.storyboard */,
+			);
+			path = apputils;
+			sourceTree = "<group>";
+		};
+		8DE54CF32862E294006FABF3 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8DE54CF42862E2B1006FABF3 /* HomeViewController.swift */,
+				8DE54CF52862E2B1006FABF3 /* HomeViewController.xib */,
+				8DE54CF92862FF62006FABF3 /* SecondViewController.swift */,
+				8DE54CFA2862FF62006FABF3 /* SecondViewController.xib */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		8DE54CFD286323A7006FABF3 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				8DE54D032863264B006FABF3 /* item.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		8DE54CFE286323AD006FABF3 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				8DE54D05286329B5006FABF3 /* ItemColViewCell.swift */,
+				8DE54D06286329B5006FABF3 /* ItemColViewCell.xib */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +181,9 @@
 				8DE54CEB2862E273006FABF3 /* LaunchScreen.storyboard in Resources */,
 				8DE54CE82862E273006FABF3 /* Assets.xcassets in Resources */,
 				8DE54CE32862E271006FABF3 /* Main.storyboard in Resources */,
+				8DE54D08286329B5006FABF3 /* ItemColViewCell.xib in Resources */,
+				8DE54CF72862E2B1006FABF3 /* HomeViewController.xib in Resources */,
+				8DE54CFC2862FF62006FABF3 /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +194,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DE54CE02862E271006FABF3 /* ViewController.swift in Sources */,
+				8DE54D07286329B5006FABF3 /* ItemColViewCell.swift in Sources */,
 				8DE54CDC2862E271006FABF3 /* AppDelegate.swift in Sources */,
+				8DE54D042863264B006FABF3 /* item.swift in Sources */,
 				8DE54CDE2862E271006FABF3 /* SceneDelegate.swift in Sources */,
 				8DE54CE62862E271006FABF3 /* ModuleTen.xcdatamodeld in Sources */,
+				8DE54CFB2862FF62006FABF3 /* SecondViewController.swift in Sources */,
+				8DE54CF62862E2B1006FABF3 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
